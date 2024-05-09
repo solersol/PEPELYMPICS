@@ -84,12 +84,20 @@ p {
 
 #dark-mode {
     /* Keep the existing background color */
-    background: #68984c url('/images/cd071e') no-repeat center center fixed;
+    background: #68984c url('/images/bg.png') no-repeat center center fixed;
     /* Ensure the background covers the entire viewport */
     background-size: cover;
     overflow-x: hidden;
     position: relative;
     height: 100%;
+}
+#video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 @font-face {
